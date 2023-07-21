@@ -5,7 +5,7 @@ import json
 import plotly
 import plotly.express as px
 
-df = pd.read_csv("issue_hw_day_07_2023.csv", encoding = "cp949")
+#df = pd.read_csv("issue_hw_day_07_2023.csv", encoding = "cp949")
 
 # Create Home Page Route
 app = Flask(__name__)
