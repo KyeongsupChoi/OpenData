@@ -7,3 +7,6 @@ REH	습도	%
 PTY	강수형태	코드값	
 VEC	풍향	deg	
 WSD	풍속	m/s	
+
+
+dsfdsfsdf
