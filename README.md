@@ -1,4 +1,4 @@
-## ✨ OpenData
+## 📶 OpenData
 
 > Data Analysis/Data Visualization web project  
 > 
@@ -6,7 +6,7 @@
 > 
 > Wendler Program explanation at https://www.t-nation.com/workouts/5-3-1-how-to-build-pure-strength/
 
-## ✨ Code-base structure
+## 📂 Code-base structure
 
 The project is coded using a simple and intuitive structure presented below:
 
@@ -38,13 +38,13 @@ The project is coded using a simple and intuitive structure presented below:
 
 <br />
 
-## Libraries Used
+## 📚 Libraries Used
 
 - ✅ `Django` - Basic Web Framework and MVT design pattern
 - ✅ `ReportLab` - Exporting in PDF format
 - ✅ `Docx` Exporting in DOCX format for Word and Google Docs
 
-## ✨ 오픈데이터
+## 📶 오픈데이터
 
 > 데이터 분석/ 데이터 시각화
 >
@@ -52,7 +52,7 @@ The project is coded using a simple and intuitive structure presented below:
 >
 > Wendler 운동 프로그램 설명: https://www.t-nation.com/workouts/5-3-1-how-to-build-pure-strength/
 
-## ✨ 코드 기반 구조
+## 📂 코드 기반 구조
 
 이 프로젝트는 아래에 제시된 간단하고 직관적인 구조를 사용하여 코딩됩니다.
 
@@ -84,7 +84,7 @@ The project is coded using a simple and intuitive structure presented below:
 
 <br />
 
-## 사용된 라이브러리
+## 📚 사용된 라이브러리
 
 - ✅ `Django` - 기본 웹 프레임워크 및 MVT 디자인 패턴
 - ✅ `ReportLab` - PDF 형식으로 다운로드
