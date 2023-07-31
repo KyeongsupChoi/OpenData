@@ -48,7 +48,7 @@ The project is coded using a simple and intuitive structure presented below:
 
 이 프로젝트는 아래에 제시된 간단하고 직관적인 구조를 사용하여 코딩됩니다.
 
-```강타
+```bash
 <프로젝트 루트>
    |
    |-- mysite/              # 기본 앱 디렉토리
@@ -72,12 +72,26 @@ The project is coded using a simple and intuitive structure presented below:
    |-- manage.py            # 앱 시작 - Django 기본 시작 스크립트
    |
    |-- ************************************************************************
+   |
+   |-- CSVFiles/                           # Holds csv files
+   |
+   |-- templates/                           # Holds html template files
+   |    |
+   |    |-- bar.html                         # graph and plotly html file
+   |
+   |-- nhis.py                              # Define Wendler forms
+   |-- main.py                              # Define Wendler models
+   |
+   |-- README.md                             # Standard readme documentation
+   |
+   |-- ************************************************************************
 ```
 
 <br />
 
 ## 📚 사용된 라이브러리
 
-- ✅ `Django` - 기본 웹 프레임워크 및 MVT 디자인 패턴
-- ✅ `ReportLab` - PDF 형식으로 다운로드
-- ✅ `Docx` Word 및 Google 문서용 DOCX 형식으로 다운로드
+- ✅ `Plotly` - Basic Web Framework and MVT design pattern
+- ✅ `Flask` - Exporting in PDF format
+- ✅ `Pandas` Exporting in DOCX format for Word and Google Docs
+- ✅ `Requests` Exporting in DOCX format for Word and Google Docs
