@@ -2,9 +2,9 @@
 
 > Data Analysis/Data Visualization web project  
 > 
-> Hosted on https://kyeongsupchoi.pythonanywhere.com/wendler.html
+> Hosted on https://kayronfalanor.pythonanywhere.com/
 > 
-> Wendler Program explanation at https://www.t-nation.com/workouts/5-3-1-how-to-build-pure-strength/
+> W docs
 
 ## 📂 Code-base structure
 
