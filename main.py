@@ -5,7 +5,7 @@ import json
 import csv
 
 # Load password from fil in gitignore
-passcode = pd.read_csv('passcode.csv', index_col=0)
+passcode = pd.read_csv('CSVFiles/passcode.csv', index_col=0)
 passcodey = passcode.iloc[0][0]
 
 # Ultra short Korea now cast API address
@@ -31,7 +31,7 @@ jsondata = json.loads(r.content)
 jsondata = jsondata['response']['body']['items']['item']
 
 # Open csv file
-data_file = open('Gjsonoutput.csv', 'w', newline='')
+data_file = open('CSVFiles/Gjsonoutput.csv', 'w', newline='')
 
 # Initialize csv writer
 csv_writer = csv.writer(data_file)

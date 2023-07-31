@@ -13,25 +13,16 @@ The project is coded using a simple and intuitive structure presented below:
 ```bash
 < PROJECT ROOT >
    |
-   |-- mysite/                               # Main app directory
-   |    |
-   |    |-- home/                            # Holds the html template files
-   |    |    |-- wendler.html                # Wendler html file with Django tags and Bootstrap          
-   |    |
-   |    |-- asgi.py                          # ASGI config for mysite project.
-   |    |-- forms.py                         # Define Wendler forms
-   |    |-- models.py                        # Define Wendler models
-   |    |-- settings.py                      # Define Global Settings
-   |    |-- urls.py                          # Define URLs served by all apps/nodes 
-   |    |-- views.py                         # Handles Wendler input and calculations
-   |    |-- wsgi.py                          # Deploys app in production
-   |    |
-   |    |-- venv/                            # Virtual env directory
+   |-- CSVFiles/                           # Holds csv files
    |
-   |-- db.sqlite3                            # SQLite storage
+   |-- templates/                           # Holds html template files
+   |    |
+   |    |-- bar.html                         # graph and plotly html file
+   |
+   |-- nhis.py                              # Define Wendler forms
+   |-- main.py                              # Define Wendler models
+   |
    |-- README.md                             # Standard readme documentation
-   |-- requirements.txt                      # Development modules
-   |-- manage.py                             # Start the app - Django default start script
    |
    |-- ************************************************************************
 ```
