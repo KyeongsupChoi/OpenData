@@ -4,7 +4,7 @@
 > 
 > Hosted on https://kayronfalanor.pythonanywhere.com/
 > 
-> W docs
+> Calls and visualizes data from the Korean Government's OpenData portal
 
 ## 📂 Code-base structure
 
@@ -31,16 +31,16 @@ The project is coded using a simple and intuitive structure presented below:
 
 ## 📚 Libraries Used
 
-- `Plotly` - Basic Web Framework and MVT design pattern
-- `Flask` - Exporting in PDF format
-- `Pandas` Exporting in DOCX format for Word and Google Docs
-- `Requests` Exporting in DOCX format for Word and Google Docs
+- `Plotly` - High-level, Declarative charting python library
+- `Flask` - Basic Web Framework used for backend
+- `Pandas` - Reading and working with CSV files
+- `Requests` - Calling APIs
 
 ## 📶 오픈데이터
 
 > 데이터 분석/ 데이터 시각화 프로젝트
 >
-> 라이브 사이트 https://kyeongsupchoi.pythonanywhere.com/wendler.html
+> 라이브 사이트 https://kayronfalanor.pythonanywhere.com/
 >
 > Wendler 운동 프로그램 설명: https://www.t-nation.com/workouts/5-3-1-how-to-build-pure-strength/
 
@@ -53,14 +53,14 @@ The project is coded using a simple and intuitive structure presented below:
    |
    |-- CSVFiles/                           # Holds csv files
    |
-   |-- templates/                           # Holds html template files
+   |-- templates/                          # Holds html template files
    |    |
-   |    |-- bar.html                         # graph and plotly html file
+   |    |-- bar.html                       # Graph and plotly html file
    |
-   |-- nhis.py                              # Define Wendler forms
-   |-- main.py                              # Define Wendler models
+   |-- nhis.py                             # Generates plotly element at index route
+   |-- main.py                             # Calls weather opendata api
    |
-   |-- README.md                             # Standard readme documentation
+   |-- README.md                           # Standard readme documentation
    |
    |-- ************************************************************************
 ```
@@ -70,6 +70,6 @@ The project is coded using a simple and intuitive structure presented below:
 ## 📚 사용된 라이브러리
 
 - `Plotly` - Basic Web Framework and MVT design pattern
-- `Flask` - Exporting in PDF format
-- `Pandas` Exporting in DOCX format for Word and Google Docs
-- `Requests` Exporting in DOCX format for Word and Google Docs
+- `Flask` - Basic Web Framework for calling APIs
+- `Pandas` - Exporting in DOCX format for Word and Google Docs
+- `Requests` - Exporting in DOCX format for Word and Google Docs
