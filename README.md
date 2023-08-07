@@ -13,16 +13,16 @@ The project is coded using a simple and intuitive structure presented below:
 ```bash
 < PROJECT ROOT >
    |
-   |-- CSVFiles/                           # Holds csv files
+   |-- CSVFiles/                            # Holds csv files
    |
    |-- templates/                           # Holds html template files
    |    |
-   |    |-- bar.html                         # graph and plotly html file
+   |    |-- bar.html                        # Graph and plotly html file
    |
    |-- nhis.py                              # Define Wendler forms
-   |-- main.py                              # Define Wendler models
+   |-- main.py                              # Calls OpenData Weather API
    |
-   |-- README.md                             # Standard readme documentation
+   |-- README.md                            # Standard readme documentation
    |
    |-- ************************************************************************
 ```
