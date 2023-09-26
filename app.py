@@ -14,7 +14,7 @@ app = Flask(__name__)
 @app.route('/')
 def bar_with_plotly():
     # Students data available in a list of list
-    students = [['Akash', 34, 'Sydney', 'Australia'],
+    students = [['First', 34, 'Sydney', 'Australia'],
                 ['Rithika', 30, 'Coimbatore', 'India'],
                 ['Priya', 31, 'Coimbatore', 'India'],
                 ['Sandy', 32, 'Tokyo', 'Japan'],
