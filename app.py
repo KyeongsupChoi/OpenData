@@ -5,8 +5,8 @@ import json
 import plotly
 import plotly.express as px
 
-#df = pd.read_csv("issue_hw_day_07_2023.csv", encoding = "cp949")
-
+wdf = pd.read_csv("CSVFiles/issue_hw_day_07_2023.csv", encoding = "cp949")
+#flask --app app run
 # Create Home Page Route
 app = Flask(__name__)
 
@@ -27,11 +27,12 @@ def bar_with_plotly():
                       index=['a', 'b', 'c', 'd', 'e', 'f'])
 
     # Create Bar chart
-    fig = px.bar(df, x='Name', y='Age', color='City', barmode='group')
-
+    fig = px.bar(wdf, x='location', y='average_temp(°C)', color='date')
+    print(wdf)
     # Create graphJSON
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
 
     # Use render_template to pass graphJSON to html
     return render_template('bar.html', graphJSON=graphJSON)
 
+print(wdf)

@@ -1,5 +1,5 @@
 date,location,heatwave(O/X),max_felt_temp(°C),max_temp(°C),average_temp(°C),min_temp(°C),avg_relative_humidity(%),heatwave_warning(O/X),heatwave_impact_forecast(level),tropical_night(O/X),UV_level
-2023-07-01,northganreung(104),X,30.7,29.1,23.7,18.3,84.8,X,관심,X,낮음
+2023-07-01,북강릉(104),X,30.7,29.1,23.7,18.3,84.8,X,관심,X,낮음
 2023-07-01,동해(106),X,28,25.4,22.2,19.4,92.9,X, ,X,낮음
 2023-07-01,서울(108),O,33.6,32.9,27.7,23.3,76.9,O,주의,X,매우높음
 2023-07-01,인천(112),X,30.1,28.7,25.2,22,82,O,주의,X,매우높음
