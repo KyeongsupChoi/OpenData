@@ -2,7 +2,7 @@
 
 > Data Analysis/Data Visualization web project  
 > 
-> Hosted on https://kayronfalanor.pythonanywhere.com/
+> Hosted on https://opendataa.onrender.com
 > 
 > Calls and visualizes data from the Korean Government's OpenData portal: https://www.data.go.kr/
 
@@ -19,7 +19,7 @@ The project is coded using a simple and intuitive structure presented below:
    |    |
    |    |-- bar.html                        # Graph and plotly html file
    |
-   |-- nhis.py                              # Define Wendler forms
+   |-- app.py                               # Flask and Plotly functionality
    |-- main.py                              # Calls OpenData Weather API
    |
    |-- README.md                            # Standard readme documentation
@@ -40,7 +40,7 @@ The project is coded using a simple and intuitive structure presented below:
 
 > 데이터 분석/ 데이터 시각화 프로젝트
 >
-> 라이브 사이트 https://kayronfalanor.pythonanywhere.com/
+> 라이브 사이트 https://opendataa.onrender.com
 >
 > 한국 정부의 OpenData 공공데이터포털에서 데이터 호출 및 시각화: https://www.data.go.kr/
 
@@ -57,7 +57,7 @@ The project is coded using a simple and intuitive structure presented below:
    |    |
    |    |-- bar.html                       # 그래프 및 plotly HTML 파일
    |
-   |-- nhis.py                             # 인덱스 경로에서 plotly 요소 생성
+   |-- app.py                             # 인덱스 경로에서 plotly 요소 생성
    |-- main.py                             # 날씨 공공데이터 api를 호출합니다.
    |
    |-- README.md                           # 표준 readme 문서
