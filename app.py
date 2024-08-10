@@ -28,11 +28,10 @@ def bar_with_plotly():
 
     # Create Bar chart
     fig = px.bar(wdf, x='location', y='average_temp(°C)', color='date')
-    print(wdf)
+
     # Create graphJSON
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
 
     # Use render_template to pass graphJSON to html
     return render_template('bar.html', graphJSON=graphJSON)
 
-print(wdf)
